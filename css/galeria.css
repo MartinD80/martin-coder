@@ -111,31 +111,172 @@ a {
 .img1 {
     grid-area: img1;
     border-radius: 20px;
-   
+    
+}
+
+.imagen1:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
 }
 
 .img2 {
     grid-area: img2;
-    border-radius: 20px;
-   
+    border-radius: 20px;  
+}
+.imagen2:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
 }
 
 .img3 {
     grid-area: img3;
     border-radius: 20px;
-   
+}
+.imagen3:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
 }
 
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
+}
 .img4 {
     grid-area: img4;
-    border-radius: 20px;
-   
+    border-radius: 20px;  
+}
+.imagen4:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
 }
 
 .img5 {
     grid-area: img5;
     border-radius: 20px;
-  
+}
+.imagen5:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
 }
 
 /* fin estructura grid */

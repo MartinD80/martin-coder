@@ -96,6 +96,36 @@ a {
     grid-area: img1;
 }
 
+.imagen1:hover{
+    	-webkit-animation: 2s girotresd 1;
+	-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+	40%{
+		-webkit-transform: perspective(800px)
+		                   translateZ(120px)
+		                   rotateY(170deg);
+		                   
+	}
+		50%{
+		-webkit-transform: perspective(800px)
+		                   translateZ(120px)
+		                   rotateY(190deg);
+		                   
+	}
+		80%{
+		-webkit-transform: perspective(800px)
+		                   translateZ(0px)
+		                   rotateY(360deg);
+		                   
+	}
+		100%{
+		-webkit-transform: perspective(800px)
+		                   rotateY(360deg);
+	}
+}
+
 .article2{
     margin: 30px;
     grid-area: article2;
@@ -104,6 +134,35 @@ a {
 .img2{
     border-radius: 10px;
     grid-area: img2;
+}
+.imagen2:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
 }
 
 .article3{
@@ -115,6 +174,35 @@ a {
     border-radius: 10px;
     grid-area: img3;
     overflow: hidden;
+}
+.imagen3:hover{
+    -webkit-animation: 2s girotresd 1;
+-webkit-backface-visibility: visible;
+}
+
+@-webkit-keyframes girotresd{
+40%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(170deg);
+                       
+}
+    50%{
+    -webkit-transform: perspective(800px)
+                       translateZ(120px)
+                       rotateY(190deg);
+                       
+}
+    80%{
+    -webkit-transform: perspective(800px)
+                       translateZ(0px)
+                       rotateY(360deg);
+                       
+}
+    100%{
+    -webkit-transform: perspective(800px)
+                       rotateY(360deg);
+}
 }
 
 /* Grid */
